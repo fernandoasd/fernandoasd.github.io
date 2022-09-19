@@ -16,83 +16,127 @@
     
 </head>
 <body>
-    <!--NAV-->
-    <div class="container-fluid m-0">
-        <div class="row bg-oscurito text-center p-3">
-                <div class="col-1 mt-5"></div>
-                <div class="col mt-1">
+<!-- Navbar Bootstrap-->
+    <nav class="navbar navbar-expand-sm  bg-oscurito navbar-dark">
+        <div class="container-fluid justify-content-center">
+                <a class="navbar-brand" href="#">
+                    <img src="./imagenes/codoacodo.png" alt="Logo" style="width:7vw;" class="">
+                </a>
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#"><strong>Conf Bs As</strong></a>
+            </li>
+
+            <li class="nav-item">
+                <a id="oscuro1" class="nav-link "href="#">---------Espaciado medio-------------</a>
+            </li>
+     
+            <li class="nav-item">
+                <a class="nav-link" href="#">La conferencia</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Los oradores</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">El lugar y la fecha</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Conviértete en orador</a>
+            </li>
+            <li class="nav-item">
+                <a  id="verde-success" class="nav-link" href="#">Comprar tickets</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+
+    <!--NAV  modelo anterior de navbar superior
+
+    <div class="container-fluid justify-content-center bg-oscurito m-0 nav">
+        <div class="row text-center">
+                <div class="col"></div>
+                <div class="col-auto p-0 m-0">
                     <a class="navbar-brand" href="#">
                         <img class="codo-logo" src="./imagenes/codoacodo.png" alt="Codoacodo">
                     </a>
                 </div>
-                <div class="col mt-5"><a href="" class="text-decoration-none text-white"><h2>Conf Bs As</h2></a></div>
-                <div class="col-2 mt-5"></div>
-                <div class="col mt-5"><a href="#" class="text-decoration-none text-white"><h4>La conferencia</h4></a></div>
-                <div class="col mt-5"><a href="#" class="text-decoration-none text-white-50"><h4>Los oradores</h4></a></div>
-                <div class="col mt-5"><a href="#" class="text-decoration-none text-white-50"><h4>El lugar y la fecha</h4></a></div>
-                <div class="col mt-5"><a href="#" class="text-decoration-none text-white-50"><h4>Conviértete en orador</h4></a></div>
-                <div class="col mt-5"><a href="#" class="text-decoration-none text-success"><h4>Comprar tickets</h4></a></div>
-                <div class="col-1 mt-5"></div>
+                <div class="col-auto"><a href="" class="text-decoration-none text-white"><h4>Conf Bs As</h4></a></div>
+                <div class="col-"></div>
+                <div class="col-auto"><a href="#" class="text-decoration-none text-white"><h6>La conferencia</h6></a></div>
+                <div class="col-auto"><a href="#" class="text-decoration-none text-white-50"><h6>Los oradores</h6></a></div>
+                <div class="col-auto"><a href="#" class="text-decoration-none text-white-50"><h6>El lugar y la fecha</h6></a></div>
+                <div class="col-auto"><a href="#" class="text-decoration-none text-white-50"><h6>Conviértete en orador</h6></a></div>
+                <div class="col-auto"><a href="#" class="text-decoration-none text-success"><h6>Comprar tickets</h6></a></div>
+                <div class="col"></div>
         </div>
     </div> 
+-->
+    
+
+<!-- Main Image-->
 
     <div class="card bg-dark">
         <img class="card-img" src="./imagenes/ba1.jpg" alt="ba1">
             <div class="card-img-overlay text-light container-1">
                         <div class="container-2">
                              <h2 class="card-title ">Conf Bs As</h2>
-                             <h3 class="card-text">
-                            Bs As llega por primera vez a la argentina. Un evento para compartir con
+                             <p class="card-text text-main">
+                            Bs As llega por primera vez a la Argentina. Un evento para compartir con
                             nuestra comunidad el conociemiento y experiencia de los expertos que
                             estan creando el tuturo del internet. Van a conocer a miembros del
-                            evento, a otros estudientes de codo a codo y oos oradores de primer
-                            nivel tenemos para ti. Te esperamos!
-                             </h3>
-                            <a class="btn btn-light" href="#">Quiero ser orador</a>
+                            evento, a otros estudientes de codo a codo y a los oradores de primer
+                            nivel que tenemos para ti. Te esperamos!
+                             </p>
+                            <a class="btn text-white border-white" href="#">Quiero ser orador</a>
                             <a class="btn btn-success" href="#">Comprar tickets</a>
                         </div>
             </div>
      </div>
+
+<!-- Título Cards-->
 
      <div class="text-center">
         <h5>Conoce a los</h5>
          <h2>Oradores</h2>
      </div>
 
+<!-- Cards-->
+
     <div class="container mt-3">
         <div class="card-columns">
-
+<!-- Card Jobs-->
                 <div class="card">
                     <img class="card-img-top" src="./imagenes/steve.jpg" alt="Card image" style="width:100%">
                     <div class="card-body">
-                        <a href="#" class="btn btn-warning" style="">Java Script</a> 
-                        <a href="#" class="btn btn-info">React</a>
+                        <a href="#" class="btn btn-warning border rounded-pill" >Java Script</a> 
+                        <a href="#" class="btn btn-info border rounded-pill">React</a>
                         <h4 class="card-title">Steve Jobs</h4>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor voluptas, necessitatibus quisquam debitis iste ratione architecto culpa expedita distinctio dignissimos. Voluptate veniam provident obcaecati consequuntur, praesentium excepturi delectus harum rerum.</p>
                     </div>
                 </div>
-
+<!-- Card Gates-->
             <div class="card" >
                 <img class="card-img-top" src="./imagenes/bill.jpg" alt="Card image" style="width:100%">
                 <div class="card-body">
-                    <a href="#" class="btn btn-warning " style="">Java Script</a> 
-                    <a href="#" class="btn btn-info ">React</a>
+                    <a href="#" class="btn btn-warning border rounded-pill" >Java Script</a> 
+                    <a href="#" class="btn btn-info border rounded-pill">React</a>
                     <h4 class="card-title">Bill Gates</h4>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor voluptas, necessitatibus quisquam debitis iste ratione architecto culpa expedita distinctio dignissimos. Voluptate veniam provident obcaecati consequuntur, praesentium excepturi delectus harum rerum.</p>
                 </div>
             </div>
-
+<!-- Card Lovelace-->
             <div class="card">
                 <img class="card-img-top" src="./imagenes/ada.jpeg" alt="Card image" style="width:100%">
                 <div class="card-body">
-                    <a href="#" class="btn btn-secondary" style="">Negocios</a> 
-                    <a href="#" class="btn btn-danger">Startups</a>
+                    <a href="#" class="btn btn-secondary border rounded-pill">Negocios</a> 
+                    <a href="#" class="btn btn-danger border rounded-pill">Startups</a>
                     <h4 class="card-title">Ada Lovelace</h4>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor voluptas, necessitatibus quisquam debitis iste ratione architecto culpa expedita distinctio dignissimos. Voluptate veniam provident obcaecati consequuntur, praesentium excepturi delectus harum rerum.</p>
                 </div>
             </div>
         </div>
     </div>
+
 
 <div class="container-fluid p-0 m-0">
     <div class="row">
@@ -107,20 +151,25 @@
     </div>
 </div>
 
+<!--Titulo Formulario  -->
+
 <div class="container">
     <div class="text-center mt-5">
      <p>CONVIÉRTETE EN UN</p>
      <H2>ORADOR</H2>
-     <P>Anótate como orador para dar una <abbr>charla ignite</abbr>. Cuéntanos de que quieres hablar!</P>
+     <P>Anótate como orador para dar una <abbr title="charla ignite">charla ignite</abbr>. Cuéntanos de que quieres hablar!</P>
     </div>
     <form action="">
+
+<!--Formulario  -->
+
     <div class="row">
         <div class="col m-1">
             <div class="form-group-inline">
                 <input type="text" class="form-control" name="Nombre" placeholder="Nombre">
             </div>
         </div>
-        <div class="col">
+        <div class="col m-1">
             <div class="form-group-inline">
                 <input type="text" class="form-control" name="Apellido" placeholder="Apellido">
             </div>
@@ -144,7 +193,9 @@
     </form>
 </div>
 
-<nav class="navbar navbar-expand-sm  navbar-dark justify-content-center mt-5">
+<!-- Nav Footer-->
+
+<nav id="navbar-foot" class="navbar navbar-expand-sm  navbar-dark justify-content-center mt-5">
     <ul class="navbar-nav">
         <li class="nav-item">
             <a class="nav-link" href="#">Preguntas Frecuentes</a>
@@ -170,13 +221,10 @@
     </ul>
 </nav>
 
-
-  
   </body>
   </html>
   
-    
-    <!--Bootstrap Bundle with Popper -->
+<!--Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
