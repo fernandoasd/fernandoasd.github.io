@@ -1,0 +1,35 @@
+.bg-oscurito{
+    background-color: #3a3a3a;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.container-2 {
+    margin-right: 6%;
+    margin-bottom: 6%;
+    width: 40%;
+    height: auto;
+}
+
+.container-2 h2, .container-2 h3 {
+    font-size: 1.5vw;
+}
+
+.card-img {
+    opacity: 0.5;
+    height: 50vh;
+    object-fit: cover;
+}
+.img-honolulu {
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.navbar {
+ background-color: hsl(207, 71%, 19%);
+}
