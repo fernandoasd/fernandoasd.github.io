@@ -1,11 +1,38 @@
+
+/* Puntero sobre hipervinculos a */
+a {
+    cursor: pointer;
+}
+
+/* Nav superior- espaciado medio del navbar superior: color del texto igual al fondo */
+#oscuro1 {
+    color: #3a3a3a;
+}
+
+/* Nav superior- color del background del navbar superior */
 .bg-oscurito{
     background-color: #3a3a3a;
 }
+
+/* Nav superior- Comprar ticket */
+#verde-success {
+    color: #1ac776;
+}
+
+.navbar-sup {
+
+}
+
+/* main image*/
 
 .container-1 {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+}
+
+.text-main {
+    text-align: right;
 }
 
 .container-2 {
@@ -19,8 +46,9 @@
     font-size: 1.5vw;
 }
 
+
 .card-img {
-    opacity: 0.5;
+    opacity: 0.4;
     height: 50vh;
     object-fit: cover;
 }
@@ -30,6 +58,14 @@
     object-fit: cover;
 }
 
-.navbar {
+.card-img-top {
+    height: 645px;
+    width: 645px;
+    object-fit: cover;
+}
+
+/* Navbar inferior*/
+
+#navbar-foot {
  background-color: hsl(207, 71%, 19%);
 }
