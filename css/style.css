@@ -58,12 +58,6 @@ a {
     object-fit: cover;
 }
 
-.card-img-top {
-    height: 645px;
-    width: 645px;
-    object-fit: cover;
-}
-
 /* Navbar inferior*/
 
 #navbar-foot {
