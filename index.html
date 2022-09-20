@@ -50,28 +50,6 @@
         </div>
     </nav>
 
-    <!--NAV  modelo anterior de navbar superior
-
-    <div class="container-fluid justify-content-center bg-oscurito m-0 nav">
-        <div class="row text-center">
-                <div class="col"></div>
-                <div class="col-auto p-0 m-0">
-                    <a class="navbar-brand" href="#">
-                        <img class="codo-logo" src="./imagenes/codoacodo.png" alt="Codoacodo">
-                    </a>
-                </div>
-                <div class="col-auto"><a href="" class="text-decoration-none text-white"><h4>Conf Bs As</h4></a></div>
-                <div class="col-"></div>
-                <div class="col-auto"><a href="#" class="text-decoration-none text-white"><h6>La conferencia</h6></a></div>
-                <div class="col-auto"><a href="#" class="text-decoration-none text-white-50"><h6>Los oradores</h6></a></div>
-                <div class="col-auto"><a href="#" class="text-decoration-none text-white-50"><h6>El lugar y la fecha</h6></a></div>
-                <div class="col-auto"><a href="#" class="text-decoration-none text-white-50"><h6>Conviértete en orador</h6></a></div>
-                <div class="col-auto"><a href="#" class="text-decoration-none text-success"><h6>Comprar tickets</h6></a></div>
-                <div class="col"></div>
-        </div>
-    </div> 
--->
-    
 
 <!-- Main Image-->
 
@@ -102,14 +80,14 @@
 
 <!-- Cards-->
 
-    <div class="container mt-3">
-        <div class="card-columns">
+<div class="container mt-3">
+    <div class="card-columns">
 <!-- Card Jobs-->
                 <div class="card">
                     <img class="card-img-top" src="./imagenes/steve.jpg" alt="Card image" style="width:100%">
                     <div class="card-body">
-                        <a href="#" class="btn btn-warning border rounded-pill" >Java Script</a> 
-                        <a href="#" class="btn btn-info border rounded-pill">React</a>
+                        <span class="badger rounded-pill bg-warning p-1"> Java Script </span>
+                        <span class="badger rounded-pill bg-info p-1 text-white m-1"> React </span>
                         <h4 class="card-title">Steve Jobs</h4>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor voluptas, necessitatibus quisquam debitis iste ratione architecto culpa expedita distinctio dignissimos. Voluptate veniam provident obcaecati consequuntur, praesentium excepturi delectus harum rerum.</p>
                     </div>
@@ -118,8 +96,8 @@
             <div class="card" >
                 <img class="card-img-top" src="./imagenes/bill.jpg" alt="Card image" style="width:100%">
                 <div class="card-body">
-                    <a href="#" class="btn btn-warning border rounded-pill" >Java Script</a> 
-                    <a href="#" class="btn btn-info border rounded-pill">React</a>
+                    <span class="badger rounded-pill bg-warning p-1"> Java Script </span>
+                    <span class="badger rounded-pill bg-info p-1 text-white m-1"> React </span>
                     <h4 class="card-title">Bill Gates</h4>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor voluptas, necessitatibus quisquam debitis iste ratione architecto culpa expedita distinctio dignissimos. Voluptate veniam provident obcaecati consequuntur, praesentium excepturi delectus harum rerum.</p>
                 </div>
@@ -128,14 +106,14 @@
             <div class="card">
                 <img class="card-img-top" src="./imagenes/ada.jpeg" alt="Card image" style="width:100%">
                 <div class="card-body">
-                    <a href="#" class="btn btn-secondary border rounded-pill">Negocios</a> 
-                    <a href="#" class="btn btn-danger border rounded-pill">Startups</a>
+                    <span class="badger rounded-pill bg-secondary p-1 text-white">Negocios</span>
+                    <span class="badger rounded-pill bg-danger p-1 text-white m-1">Startups</span>
                     <h4 class="card-title">Ada Lovelace</h4>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor voluptas, necessitatibus quisquam debitis iste ratione architecto culpa expedita distinctio dignissimos. Voluptate veniam provident obcaecati consequuntur, praesentium excepturi delectus harum rerum.</p>
                 </div>
             </div>
-        </div>
     </div>
+</div>
 
 
 <div class="container-fluid p-0 m-0">
@@ -151,47 +129,48 @@
     </div>
 </div>
 
-<!--Titulo Formulario  -->
 
-<div class="container">
+<!--Formulario  -->
+
+<div class="container" style="width: 50%">
+
     <div class="text-center mt-5">
      <p>CONVIÉRTETE EN UN</p>
      <H2>ORADOR</H2>
      <P>Anótate como orador para dar una <abbr title="charla ignite">charla ignite</abbr>. Cuéntanos de que quieres hablar!</P>
     </div>
+
     <form action="">
-
-<!--Formulario  -->
-
-    <div class="row">
-        <div class="col m-1">
-            <div class="form-group-inline">
-                <input type="text" class="form-control" name="Nombre" placeholder="Nombre">
+        <div class="row">
+            <div class="col m-1">
+                <div class="form-group-inline">
+                    <input type="text" class="form-control" name="Nombre" placeholder="Nombre">
+                </div>
+            </div>
+            <div class="col m-1">
+                <div class="form-group-inline">
+                    <input type="text" class="form-control" name="Apellido" placeholder="Apellido">
+                </div>
             </div>
         </div>
-        <div class="col m-1">
-            <div class="form-group-inline">
-                <input type="text" class="form-control" name="Apellido" placeholder="Apellido">
+
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <textarea name="comentario0" class="form-control" id="comentario" rows="4" placeholder="De que quieres hablar?"></textarea>
+                    <p class="text-secondary">Recuerda incluir in título para tu charla.</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="row">
-        <div class="col">
-            <div class="form-group">
-                <textarea name="comentario0" class="form-control" id="comentario" rows="4" placeholder="De que quieres hablar?"></textarea>
-                <p class="text-secondary">Recuerda incluir in título para tu charla.</p>
+        <div class="row">
+            <div class="col">
+                <button type="enviar" class="btn btn-success" style="width:100%">Enviar</button>
             </div>
         </div>
-    </div>
-
-    <div class="row">
-        <div class="col">
-             <button type="enviar" class="btn btn-success" style="width:100%">Enviar</button>
-        </div>
-    </div>
     </form>
 </div>
+
 
 <!-- Nav Footer-->
 
