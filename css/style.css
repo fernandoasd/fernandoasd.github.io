@@ -1,12 +1,6 @@
-
 /* Puntero sobre hipervinculos a */
 a {
     cursor: pointer;
-}
-
-/* Nav superior- espaciado medio del navbar superior: color del texto igual al fondo */
-#oscuro1 {
-    color: #3a3a3a;
 }
 
 /* Nav superior- color del background del navbar superior */
