@@ -85,15 +85,15 @@ button
 
 #imgSpinner
 {
-    height:226px;
-    width:207px;
+    height:450px;
+    width:900px;
     background-image: url(tostado-spinner.jpg);
     /* background-image: url(https://w7.pngwing.com/pngs/560/655/png-transparent-utn-hd-logo.png); */
     /* https://elcomercio.pe/resizer/v2/KA35MX3YBBCZVPMXOU5RCENPVI.jpg?auth=e93626d83b4af1418706ec8c3d9f1a529a0f7184ac5987eda6bf9f8c8070eb81&width=1200&height=810&quality=90&smart=true */
     background-position: center;
     background-size: cover;
     position: absolute;
-    filter: drop-shadow(0px 7px 21px rgb(95, 210, 201));
+    filter: drop-shadow(0px 7px 21px rgb(15, 16, 16));
     animation: rotar 3s ease-in infinite;
 }
 
@@ -112,7 +112,7 @@ button
     }
     to
     {
-        transform: rotateZ(666deg);
+        transform: rotateZ(400deg);
     }
 }
 
